@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1597172036 source:/home/kasket/Documents/cpp/firstcpp/main.cpp
+	<iostream>
+	<string>
+
