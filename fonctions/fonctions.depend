@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1597243856 source:/home/kasket/Documents/cpp/fonctions/math.cpp
+	"math.h"
+
+1597243924 /home/kasket/Documents/cpp/fonctions/math.h
+	<string>
+
