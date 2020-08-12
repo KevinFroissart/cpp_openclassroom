@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1597270382 source:/home/kasket/Documents/cpp/classes/src/Arme.cpp
+	"Arme.h"
+
+1597270328 /home/kasket/Documents/cpp/classes/include/Arme.h
+	<iostream>
+	<string>
+
