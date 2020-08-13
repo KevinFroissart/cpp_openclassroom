@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1300741448 source:/home/kasket/Documents/cpp/zfraction_complet/main.cpp
+	<iostream>
+	"ZFraction.h"
+
+1300651178 /home/kasket/Documents/cpp/zfraction_complet/ZFraction.h
+	<iostream>
+
+1300741942 source:/home/kasket/Documents/cpp/zfraction_complet/ZFraction.cpp
+	"ZFraction.h"
+	<cstdlib>
+
