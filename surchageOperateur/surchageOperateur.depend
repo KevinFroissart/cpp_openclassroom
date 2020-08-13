@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1597339799 source:/home/kasket/Documents/cpp/surchageOperateur/src/Duree.cpp
+	<iostream>
+	"Duree.h"
+
+1597339605 /home/kasket/Documents/cpp/surchageOperateur/include/Duree.h
+	<iosfwd>
+
+1597339067 source:/home/kasket/Documents/cpp/surchageOperateur/main.cpp
+	<iostream>
+	"Duree.h"
+

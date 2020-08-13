@@ -6,3 +6,16 @@
 	<iostream>
 	<string>
 
+1597270567 source:/home/kasket/Documents/cpp/classes/main.cpp
+	<iostream>
+	<string>
+	"Personnage.h"
+
+1597270587 /home/kasket/Documents/cpp/classes/include/Personnage.h
+	<iostream>
+	<string>
+	"Arme.h"
+
+1597270502 source:/home/kasket/Documents/cpp/classes/src/Personnage.cpp
+	"Personnage.h"
+
