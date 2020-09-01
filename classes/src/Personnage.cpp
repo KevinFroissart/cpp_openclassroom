@@ -2,89 +2,28 @@
 
 using namespace std;
 
-Personnage::Personnage() : m_vie(100), m_mana(100)
+Personnage::Personnage() : m_vie(100), m_nom("Jack")
 {
-    m_arme = new Arme();
+
 }
 
-Personnage::Personnage(string nomArme, int degatsArme) : m_vie(100), m_mana(100),m_arme(nomArme, degatsArme)
+Personnage::Personnage(string nom) : m_vie(100), m_nom(nom)
 {
-    m_arme = new Arme(nomArme, degatsArme);
+
 }
 
-Personnage::Personnage(Personnage const& personnageACopier)
-   : m_vie(personnageACopier.m_vie), m_mana(personnageACopier.m_mana), m_arme(0)
+void Personnage::recevoirDegats(int degats)
 {
-    m_arme = new Arme(*(personnageACopier.m_arme));
+    m_vie -= degats;
 }
 
-Personnage::~Personnage()
+void Personnage::coupDePoing(Personnage &cible) const
 {
-    delete m_arme;
-    /* Rien à mettre ici car on ne fait pas d'allocation dynamique
-    dans la classe Personnage. Le destructeur est donc inutile mais
-    je le mets pour montrer à quoi cela ressemble.
-    En temps normal, un destructeur fait souvent des delete et quelques
-    autres vérifications si nécessaire avant la destruction de l'objet. */
+    cible.recevoirDegats(10);
 }
 
-void Personnage::recevoirDegats(int nbDegats)
+void Personnage::sePresenter() const
 {
-    m_vie -= nbDegats;
-    //On enlève le nombre de dégâts reçus à la vie du personnage
-
-    if (m_vie < 0) //Pour éviter d'avoir une vie négative
-    {
-        m_vie = 0; //On met la vie à 0 (cela veut dire mort)
-    }
-}
-
-void Personnage::attaquer(Personnage &cible)
-{
-    cible.recevoirDegats(m_arme->getDegats());
-}
-
-void Personnage::boirePotionDeVie(int quantitePotion)
-{
-    m_vie += quantitePotion;
-
-    if (m_vie > 100) //Interdiction de dépasser 100 de vie
-    {
-        m_vie = 100;
-    }
-}
-
-void Personnage::changerArme(string nomNouvelleArme, int degatsNouvelleArme)
-{
-    m_arme.changer(nomNouvelleArme, degatsNouvelleArme);
-}
-
-bool Personnage::estVivant() const
-{
-    return m_vie > 0;
-}
-
-void Personnage::afficherEtat() const
-{
-    cout << "Vie : " << m_vie << endl;
-    cout << "Mana : " << m_mana << endl;
-    m_arme->afficher();
-}
-
-Personnage* Personnage::getAdresse() const
-{
-    return this;
-}
-
-Personnage& Personnage::operator=(Personnage const& personnageACopier)
-{
-    if(this != &personnageACopier)
-    //On vérifie que l'objet n'est pas le même que celui reçu en argument
-    {
-        m_vie = personnageACopier.m_vie; //On copie tous les champs
-        m_mana = personnageACopier.m_mana;
-	delete m_arme;
-        m_arme = new Arme(*(personnageACopier.m_arme));
-    }
-    return *this; //On renvoie l'objet lui-même
+    cout << "Bonjour, je m'appelle " << m_nom << "." << endl;
+    cout << "J'ai encore " << m_vie << " points de vie." << endl;
 }
