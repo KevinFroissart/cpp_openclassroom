@@ -19,15 +19,14 @@
 1597270502 source:/home/kasket/Documents/cpp/classes/src/Personnage.cpp
 	"Personnage.h"
 
-1598967074 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\main.cpp
+1598970978 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\main.cpp
 	<iostream>
 	<string>
-	"Personnage.h"
+	"Magicien.h"
 
-1598967074 c:\users\froissart kévin\git\cpp_openclassroom\classes\include\personnage.h
+1598969624 c:\users\froissart kévin\git\cpp_openclassroom\classes\include\personnage.h
 	<iostream>
 	<string>
-	"Arme.h"
 
 1598967074 c:\users\froissart kévin\git\cpp_openclassroom\classes\include\arme.h
 	<iostream>
@@ -35,4 +34,19 @@
 
 1598967074 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\src\arme.cpp
 	"Arme.h"
+
+1598969646 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\src\personnage.cpp
+	"Personnage.h"
+
+1598971245 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\src\guerrier.cpp
+	"Guerrier.h"
+
+1598971214 c:\users\froissart kévin\git\cpp_openclassroom\classes\include\guerrier.h
+	"Personnage.h"
+
+1598970002 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\src\magicien.cpp
+	"Magicien.h"
+
+1598971025 c:\users\froissart kévin\git\cpp_openclassroom\classes\include\magicien.h
+	"Personnage.h"
 
