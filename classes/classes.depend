@@ -19,3 +19,20 @@
 1597270502 source:/home/kasket/Documents/cpp/classes/src/Personnage.cpp
 	"Personnage.h"
 
+1598967074 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\main.cpp
+	<iostream>
+	<string>
+	"Personnage.h"
+
+1598967074 c:\users\froissart kévin\git\cpp_openclassroom\classes\include\personnage.h
+	<iostream>
+	<string>
+	"Arme.h"
+
+1598967074 c:\users\froissart kévin\git\cpp_openclassroom\classes\include\arme.h
+	<iostream>
+	<string>
+
+1598967074 source:c:\users\froissart kévin\git\cpp_openclassroom\classes\src\arme.cpp
+	"Arme.h"
+
