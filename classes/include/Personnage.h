@@ -12,6 +12,7 @@ class Personnage
     Personnage();
     Personnage(std::string nomArme, int degatsArme);
     ~Personnage();
+    Personnage(Personnage const& personnageACopier);
     void recevoirDegats(int nbDegats);
     void attaquer(Personnage &cible);
     void boirePotionDeVie(int quantitePotion);
@@ -23,7 +24,7 @@ class Personnage
 
     int m_vie;
     int m_mana;
-    Arme m_arme; //Notre Personnage possède une Arme
+    Arme *m_arme; //Notre Personnage possède une Arme
 };
 
 #endif
