@@ -179,5 +179,12 @@ int main()
 
     //On utilise les voitures et les motos
 
+     for(int i(0); i<listeVehicules.size(); ++i) // il faut liberer la mémoire
+    {
+        delete listeVehicules[i];  //On libère la i-ème case mémoire allouée
+        listeVehicules[i] = 0;  //On met le pointeur à 0 pour éviter les soucis
+    }
+
+
     return 0;
 }
