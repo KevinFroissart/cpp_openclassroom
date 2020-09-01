@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1598974802 source:c:\users\froissart kévin\git\cpp_openclassroom\statique\src\statique.cpp
+	"statique.h"
+
+1598975125 c:\users\froissart kévin\git\cpp_openclassroom\statique\include\statique.h
+	<iostream>
+	<string>
+
+1598975377 source:c:\users\froissart kévin\git\cpp_openclassroom\statique\main.cpp
+	<iostream>
+	"statique.h"
+	"Personnage.h"
+
+1598975501 c:\users\froissart kévin\git\cpp_openclassroom\statique\include\personnage.h
+	<iostream>
+	<string>
+
