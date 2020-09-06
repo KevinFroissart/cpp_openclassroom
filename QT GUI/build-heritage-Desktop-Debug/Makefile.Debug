@@ -228,7 +228,13 @@ debug/mafenetre.o: ../heritage/mafenetre.cpp ../heritage/MaFenetre.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QPushButton \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qpushbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtGui/qicon.h
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qicon.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QProgressBar \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qprogressbar.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qframe.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QSlider \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qslider.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractslider.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mafenetre.o ..\heritage\mafenetre.cpp
 
 debug/main.o: ../heritage/main.cpp C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QApplication \
@@ -342,7 +348,13 @@ debug/main.o: ../heritage/main.cpp C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QApp
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QPushButton \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qpushbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtGui/qicon.h
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qicon.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QProgressBar \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qprogressbar.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qframe.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QSlider \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qslider.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractslider.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\heritage\main.cpp
 
 ####### Install

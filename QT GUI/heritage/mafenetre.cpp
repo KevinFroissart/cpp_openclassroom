@@ -2,19 +2,14 @@
 
 MaFenetre::MaFenetre() : QWidget()
 {
-    setFixedSize(300, 150);
+    setFixedSize(200, 100);
 
-    // Construction du bouton
-    m_bouton = new QPushButton("Quitter !", this);
+    m_bar = new QProgressBar(this);
+    m_bar->setGeometry(10, 60, 150, 20);
+    m_bar->move(50, 20);
 
-    m_bouton->setFont(QFont("Comic Sans MS", 14));
-    m_bouton->setCursor(Qt::PointingHandCursor);
-    m_bouton->move(60, 50);
-    // Connexion du clic du bouton à la fermeture de l'application
-    QObject::connect(m_bouton, SIGNAL(clicked()), qApp, SLOT(quit()));
-}
+    m_slider = new QSlider(Qt::Horizontal, this);
+    m_slider->setGeometry(10, 60, 150, 20);
 
-MaFenetre::~MaFenetre()
-{
-    delete m_bouton;
+    QObject::connect(m_slider, SIGNAL(valueChanged(int)), m_bar, SLOT(setValue(int))) ;
 }
