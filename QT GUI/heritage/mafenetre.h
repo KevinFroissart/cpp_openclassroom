@@ -1,11 +1,17 @@
+// MaFenetre.h
+
 #ifndef DEF_MAFENETRE
 #define DEF_MAFENETRE
 
 #include <QApplication>
 #include <QWidget>
 #include <QPushButton>
-#include <QProgressBar>
-#include <QSlider>
+#include <QMessageBox>
+#include <QInputDialog>
+#include <QLineEdit>
+#include <QFontDialog>
+#include <QColorDialog>
+#include <QFileDialog>
 
 class MaFenetre : public QWidget
 {
@@ -15,13 +21,10 @@ class MaFenetre : public QWidget
     MaFenetre();
 
     public slots:
-    void changerLargeur(int largeur);
-
-    signals:
-    void agrandissementMax();
+    void ouvrirDialogue();
 
     private:
-    QSlider *m_slider;
+    QPushButton *m_boutonDialogue;
 };
 
 #endif
