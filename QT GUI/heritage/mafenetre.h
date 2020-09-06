@@ -9,11 +9,18 @@
 
 class MaFenetre : public QWidget
 {
+    Q_OBJECT
+
     public:
     MaFenetre();
 
+    public slots:
+    void changerLargeur(int largeur);
+
+    signals:
+    void agrandissementMax();
+
     private:
-    QProgressBar *m_bar;
     QSlider *m_slider;
 };
 
