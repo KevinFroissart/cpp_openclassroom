@@ -214,12 +214,26 @@ debug/moc_mafenetre.cpp: C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QApplication \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qpushbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtGui/qicon.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QProgressBar \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qprogressbar.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QMessageBox \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qmessagebox.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QInputDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qinputdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qlineedit.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qframe.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QSlider \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qslider.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractslider.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextcursor.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextformat.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qpen.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextoption.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QLineEdit \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QFontDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qfontdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QColorDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qcolordialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QFileDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qfiledialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qdir.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qfileinfo.h \
 		../heritage/mafenetre.h \
 		debug/moc_predefs.h \
 		C:/Qt/5.9.9/mingw53_32/bin/moc.exe
@@ -353,12 +367,26 @@ debug/mafenetre.o: ../heritage/mafenetre.cpp ../heritage/MaFenetre.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qpushbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtGui/qicon.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QProgressBar \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qprogressbar.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QMessageBox \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qmessagebox.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QInputDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qinputdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qlineedit.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qframe.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QSlider \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qslider.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractslider.h
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextcursor.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextformat.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qpen.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextoption.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QLineEdit \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QFontDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qfontdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QColorDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qcolordialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QFileDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qfiledialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qdir.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qfileinfo.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mafenetre.o ..\heritage\mafenetre.cpp
 
 debug/main.o: ../heritage/main.cpp C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QApplication \
@@ -467,18 +495,39 @@ debug/main.o: ../heritage/main.cpp C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QApp
 		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtouchdevice.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtGui/qguiapplication.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtGui/qinputmethod.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/QTranslator \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qtranslator.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/QLocale \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/QLibraryInfo \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qlibraryinfo.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qdatetime.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qversionnumber.h \
 		../heritage/MaFenetre.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QWidget \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QPushButton \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qpushbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtGui/qicon.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QProgressBar \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qprogressbar.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QMessageBox \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qmessagebox.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QInputDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qinputdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qlineedit.h \
 		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qframe.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QSlider \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qslider.h \
-		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qabstractslider.h
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextcursor.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextformat.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qpen.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtGui/qtextoption.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QLineEdit \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QFontDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qfontdialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QColorDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qcolordialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/QFileDialog \
+		C:/Qt/5.9.9/mingw53_32/include/QtWidgets/qfiledialog.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qdir.h \
+		C:/Qt/5.9.9/mingw53_32/include/QtCore/qfileinfo.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\heritage\main.cpp
 
 debug/moc_mafenetre.o: debug/moc_mafenetre.cpp 
