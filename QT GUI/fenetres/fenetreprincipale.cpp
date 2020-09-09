@@ -41,4 +41,10 @@ FenetrePrincipale::FenetrePrincipale()
     fichiersRecents->addAction("Fichier bidon 2.txt");
     fichiersRecents->addAction("Fichier bidon 3.txt");
 
+
+    connect(actionQuitter, SIGNAL(triggered()), qApp, SLOT(quit()));
+    actionQuitter->setShortcut(QKeySequence("Ctrl+Q")); //racoursi clavier
+    actionQuitter->setIcon(QIcon("quitter.png")); //icone dans le menu
+
+    //actionGras->setCheckable(true); checkbox dans le menu
 }
