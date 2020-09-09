@@ -1,4 +1,3 @@
-#include <QApplication>
 #include "fenprincipale.h"
 
 int main(int argc, char* argv[])
